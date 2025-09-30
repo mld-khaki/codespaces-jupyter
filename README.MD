@@ -28,8 +28,6 @@ This repository contains code for analyzing and plotting **cortico-cortical evok
 ├── requirements.txt # Dependencies
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -39,13 +37,7 @@ Copy code
 2. Place EDF data in `./data/sub-<ID>/ses-001/`.
 3. Launch the notebook:
 
-   ```bash
-   jupyter notebook notebooks/evoked_potential_analysis_plotting.ipynb
+jupyter notebook notebooks/evoked_potential_analysis_plotting.ipynb
+
 Run cells to analyze EDF annotations and generate evoked potential plots.
 
-Requirements
-Install dependencies with:
-
-bash
-Copy code
-pip install -r requirements.txt
