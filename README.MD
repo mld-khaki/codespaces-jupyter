@@ -21,11 +21,17 @@ This repository contains code for analyzing and plotting **cortico-cortical evok
 ## Repository Structure
 .
 ├── .devcontainer/ # GitHub Codespaces config
+
 ├── data/ # Place EDF files here (organized by subject/session)
+
 ├── notebooks/ # Jupyter notebooks
+
 ├── ccep_lib.py # Helper functions
+
 ├── evoked_potential_analysis_plotting.ipynb # Main analysis notebook
+
 ├── requirements.txt # Dependencies
+
 └── README.md
 
 
